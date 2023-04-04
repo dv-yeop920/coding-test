@@ -1,7 +1,7 @@
 function solution(price) {
     var answer = 0;
     if(price < 100000) {
-        return price
+        return price;
     }
     if(price >= 100000 && price < 300000) {
         answer = Math.ceil(5  /100 * price);
