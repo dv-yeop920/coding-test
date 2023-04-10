@@ -1,7 +1,6 @@
 function solution(n) {
     let result = 0;
-    var answer;
-    answer = String(n).split('');
+    const answer = String(n).split('');
     answer.map(item => {
         return result += Number(item);
     })
