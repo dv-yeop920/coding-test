@@ -1,13 +1,13 @@
 function solution(n) {
-    var answer = '';
+    let result = '';
     for(let i = 1; i <= n; i++) {
          if(i % 2 !== 0) {
-            answer += '수';
+            result += '수'
         }
          if(i % 2 === 0) {
-            answer += '박';
+            result += '박';
         }
 
     }
-    return answer;
+    return result;
 }
