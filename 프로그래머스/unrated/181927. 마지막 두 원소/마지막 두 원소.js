@@ -5,5 +5,5 @@ function solution(num_list) {
     list1 > list2 
         ? answer.push(list1 - list2) 
         : answer.push(list1 * 2);
-    return answer
+    return answer;
 }
