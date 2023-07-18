@@ -7,11 +7,5 @@ function solution(num_list) {
         plus += i;
         plus2 = Math.pow(plus , 2);
     }
-    if(multiply < plus2) {
-        return 1;
-    }
-    else {
-        return 0;
-    }
-    
+    return multiply < plus2 ? 1 : 0;
 }
