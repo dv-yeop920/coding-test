@@ -1,6 +1,3 @@
 function solution(my_string, n) {
-    var answer = [...my_string];
-    const edit = answer.reverse().slice(0 , n);
-    const result = edit.reverse().join('');
-    return result;
+    return [...my_string].reverse().slice(0 , n).reverse().join('');
 }
