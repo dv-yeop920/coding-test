@@ -1,5 +1,5 @@
 function solution(start, end) {
-    var answer = [];
+    let answer = [];
     for(let i = start; i >= end; i--) {
         answer.push(i);
     }
