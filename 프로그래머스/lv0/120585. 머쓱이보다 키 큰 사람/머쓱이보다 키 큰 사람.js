@@ -1,9 +1,9 @@
 function solution(array, height) {
-    var answer = 0;
+    let count = 0;
     for(const i of array) {
         if(i > height) {
-            answer++;
+            count++;
         }
     }
-    return answer;
+    return count;
 }
