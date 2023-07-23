@@ -1,6 +1,6 @@
 function solution(my_string) {
     var answer = ''
-    for(i = my_string.length -1; i >= 0; i--){
+    for(let i = my_string.length -1; i >= 0; i--){
         answer = answer + my_string[i];
     }
     return answer;
