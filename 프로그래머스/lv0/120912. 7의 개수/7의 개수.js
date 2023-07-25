@@ -1,6 +1,11 @@
 function solution(array) {
     let count = 0;
-    const answer = array.join("").split('');
-    answer.map(item => parseInt(item) === 7 ? count++ : item);
+    const answer = 
+    array
+    .join("")
+    .split("")
+    .map(item => {
+        if(parseInt(item) === 7) return count++;
+    });
     return count;
 }
