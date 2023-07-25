@@ -1,5 +1,5 @@
 function solution(my_string) {
-    var answer = '';
+    let answer = '';
     for(let i = 0; i < my_string.length; i++) {
         const vowel = /[aeiou]/.test(my_string[i]);
         if(!vowel) {
