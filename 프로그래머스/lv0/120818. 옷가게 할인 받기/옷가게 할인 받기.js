@@ -1,5 +1,5 @@
 function solution(price) {
-    var answer = 0;
+    let answer = 0;
     if(price < 100000) {
         return price;
     }
