@@ -1,7 +1,8 @@
 function solution(str_list, ex) {
-    var answer = [];
+    const answer = [];
     str_list.map(item => {
-        item.includes(ex) ? null : answer.push(item);
+        if(item.includes(ex) === false)
+           return answer.push(item);
     })
-    return answer.join('');
+    return answer.join("");
 }
