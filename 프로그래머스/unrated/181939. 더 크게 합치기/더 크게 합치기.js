@@ -1,11 +1,11 @@
 function solution(a, b) {
-    let result = String(a) + String(b);
-    let result2 = String(b) + String(a);
+    let result = a.toString() + b.toString();
+    let result2 = b.toString() + a.toString();
     
     if (result > result2) {
-        return Number(result);
+        return parseInt(result);
     }
     else {
-        return Number(result2);
+        return parseInt(result2);
     }
 }
